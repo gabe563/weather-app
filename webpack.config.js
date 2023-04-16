@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  mode: 'development',
+  mode: 'production',
   entry: {
     main: path.resolve(__dirname, 'src/index.js'),
   },
@@ -37,6 +37,7 @@ module.exports = {
       title: 'Weather App',
       filename: 'index.html',
       template: 'src/template.html',
+      favicon: './src/assets/icon.png',
     }),
   ],
 };
