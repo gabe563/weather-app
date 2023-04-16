@@ -320,3 +320,42 @@ body {
     transform: translate3d(0, 0, 0);
   }
 }
+
+@media screen and (max-width: 1150px) {
+  body {
+    flex-direction: column;
+  }
+
+  .side-page {
+    height: 145vh;
+    width: 170vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .other-content {
+    display: block;
+  }
+
+  .search {
+    position: absolute;
+    top: 0;
+    margin-left: 100vw;
+
+    #search {
+      margin-top: 105px;
+    }
+
+    .place {
+      top: 120px;
+    }
+  }
+
+  .forecast {
+    display: none;
+  }
+
+  .loading-screen {
+    height: 145vh;
+  }
+}
