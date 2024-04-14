@@ -4,4 +4,4 @@ This Weather App project was made as one of the projects of the curriculum "[The
 
 ## Live Preview
 
-### [Here](https://foxysamu.github.io/weather-app/) 👈
+### [Here](https://gabe563.github.io/weather-app/) 👈
